@@ -1,8 +1,9 @@
 name: Run Tests and Upload Python Package
 
 on:
-  commit:
-    types: [created]
+  push:
+    branches:
+      - main
 
 jobs:
   test:
