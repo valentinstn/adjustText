@@ -61,3 +61,6 @@ target/
 *~
 .spyderworkspace
 adjustText/.spyderworkspace
+
+# Virtual environment
+venv/
